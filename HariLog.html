@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+    <style>
+        body{
+            background-image: url("Backimg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            padding: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: solid;
+            text-shadow: 50%;
+            color: #FF90BB;
+        }
+        .container{
+            width: 500px;
+            margin: auto;
+            background-color: white;
+            border-width: 50px;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        label{
+            border-radius: 20px;
+        }
+        details{
+            margin-top: 30px;
+        }
+        button:hover{
+            background-color: #009FBD;
+        }
+        input{
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Login</h1>
+    <form action="" method="post">
+        <div class="details">
+            <label for="email">Email:</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Enter Your Mail Address">
+        </div>
+        <div class="details">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter Your Password">
+        </div>
+        <div class="button">
+            <button style="border-color: transparent; border-radius: 20px;" type="submit" class="btn-primary">Continue</button>
+            <button style="border-color: transparent; border-radius: 20px;" type="submit" class="btn-secondary">Cancel</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
