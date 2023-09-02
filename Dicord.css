@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://discord.com/assets/8a8375ab7908384e1fd6efe408284203.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background{
+    background-color: #5C469C;
+    height: 600px;
+}
+.butt{
+    
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    font-family: cursive;
+}
+h1{
+}
+pre{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+.invite{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #DBDFEA;
+    
+}
+.hanging{
+    background-color: #ACB1D6;
+    margin-right: 60px;
+}
+.fandom{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    background-color: #DBDFEA;
+}
