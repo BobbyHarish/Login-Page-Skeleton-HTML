@@ -200,6 +200,7 @@ img{
     border-radius: 15px;
     border-style: outset;
     background-color: #9F91CC;
+    box-shadow: 5px 10px 8px #FDBF60;
     
   }
   .int1_img>
@@ -228,6 +229,7 @@ img{
     border: 8px solid orange;
     border-radius: 15px;
     border-style: outset;
+    box-shadow: 5px 10px 8px #E26EE5;
   }
   .int2_img>
   {
@@ -262,6 +264,7 @@ img{
     background-color: #EA8FEA;
     border: 8px solid #A7727D;
     border-style: outset;
+    box-shadow: 5px -10px 8px #A084E8;
     
   }
   .int3_img>
